@@ -1,0 +1,25 @@
+=== Username ===
+subhana
+=== Groups ===
+subhana adm cdrom sudo dip plugdev users
+=== ID Details ===
+uid=1000(subhana) gid=1000(subhana) groups=1000(subhana),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),100(users)
+=== Shell ===
+/bin/bash
+=== Current Directory ===
+/home/subhana/linux-lab-assignment/Q1_Environment_Verification
+=== Files in Workspace ===
+total 12
+drwxr-xr-x 2 subhana subhana 4096 Jul  3 16:53 .
+drwxr-xr-x 8 subhana subhana 4096 Jul  3 16:40 ..
+-rw-r--r-- 1 subhana subhana  354 Jul  3 16:53 Environment_Report.txt
+=== Network Test ===
+PING google.com (142.251.126.138) 56(84) bytes of data.
+64 bytes from cn-in-f138.1e100.net (142.251.126.138): icmp_seq=1 ttl=110 time=29.9 ms
+64 bytes from cn-in-f138.1e100.net (142.251.126.138): icmp_seq=2 ttl=110 time=29.3 ms
+64 bytes from cn-in-f138.1e100.net (142.251.126.138): icmp_seq=3 ttl=110 time=29.9 ms
+64 bytes from cn-in-f138.1e100.net (142.251.126.138): icmp_seq=4 ttl=110 time=29.1 ms
+
+--- google.com ping statistics ---
+4 packets transmitted, 4 received, 0% packet loss, time 3005ms
+rtt min/avg/max/mdev = 29.142/29.572/29.915/0.336 ms
