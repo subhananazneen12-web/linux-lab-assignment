@@ -1,0 +1,29 @@
+=== Directory Structure ===
+ProjectAlpha
+ProjectAlpha/src
+ProjectAlpha/src/main.sh
+ProjectAlpha/logs
+ProjectAlpha/logs/activity.log
+ProjectAlpha/docs
+ProjectAlpha/docs/readme.txt
+=== Umask Value ===
+0022
+=== Permissions and Ownership (after changes) ===
+ProjectAlpha:
+total 12
+drwxr-x--- 2 subhana subhana 4096 Jul  3 18:04 docs
+drwx------ 2 subhana subhana 4096 Jul  3 18:04 logs
+drwxr-x--- 2 subhana subhana 4096 Jul  3 18:04 src
+
+ProjectAlpha/docs:
+total 0
+-rw-r--r-- 1 subhana subhana 0 Jul  3 18:04 readme.txt
+
+ProjectAlpha/logs:
+total 0
+-rw-r--r-- 1 subhana subhana 0 Jul  3 18:04 activity.log
+
+ProjectAlpha/src:
+total 0
+-rw-r--r-- 1 subhana subhana 0 Jul  3 18:04 main.sh
+
